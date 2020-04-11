@@ -13,7 +13,7 @@ class showText(Scene): # 创建一个继承自Scene的类
     def construct(self):  # 生成动画函数
         ## Marking object
         text01 = TextMobject("LOS ANGELES")
-        text02 = TextMobject("NOVEMBER,2019")
+        text02 = TextMobject("NOVEMBER, 2019")
         text_group = VGroup(text01, text02)
         text02.next_to(text01, DOWN)
 
